@@ -5,7 +5,8 @@
 </p>
 
 ## Overview
-This capsule allows users to search for earthquakes that occurred globally based on date-time, location, and minimum, maximum or approximate magnitude. This capsule demonstrates a sample implementation of Bixby’s DateTime and Geo libraries.
+This capsule allows users to search for earthquakes that occurred globally based on date-time, location, and minimum, maximum or approximate magnitude. This capsule demonstrates a sample implementation of Bixby’s DateTime and Geo libraries and is the companion to the [Mastering DateTime and Geo Libraries](https://bixby.developer.samsung.com/newsroom/en-us/When-and-Where-Mastering-DateTime-and-Geo-Libraries) article.
+
 
 ## How to get started
 * Download and install the Bixby Studio IDE from the Bixby Developer Center.
