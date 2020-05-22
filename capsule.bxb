@@ -10,13 +10,17 @@ capsule {
 			as (time) version (3.1.48)
 		}
 		import (viv.geo) {
-			as (geo) version (9.26.1)
+			as (geo) version (9.26.32)
 		}
 	}
 	permissions {
 		user-profile-access
 	}
-	runtime-version (2)
+	runtime-version (7) {
+		overrides {
+			no-fallback-dialog-in-views (false)
+		}
+	}
 	store-countries {
 		all
 	}

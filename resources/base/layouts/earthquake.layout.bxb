@@ -36,6 +36,9 @@ layout-macro-def (earthquake-thumbnail-card) {
         template ("./images/earthquake.png")
       }
       image-position (End)
+      on-click {
+        view-for (earthquake)
+      }
     }
   }
 }

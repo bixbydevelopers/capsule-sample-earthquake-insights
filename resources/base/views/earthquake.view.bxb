@@ -3,9 +3,8 @@ result-view {
   
   render {
     if (size(earthquake) > 1) {
-      list-of (earthquake) {       
-        has-details (true)  
-        where-each (item) {    
+      list-of (earthquake) {
+        where-each (item) {
           layout-macro (earthquake-thumbnail-card) {
             param (earthquake) {
               expression (item)
