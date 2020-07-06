@@ -7,14 +7,14 @@ capsule {
 	}
 	capsule-imports {
 		import (viv.time) {
-			as (time) version (3.1.48)
+			as (time) version (3.1.188)
 		}
 		import (viv.geo) {
-			as (geo) version (9.26.32)
+			as (geo) version (9.26.48)
 		}
 	}
 	permissions {
-		user-profile-access
+		device-location-access
 	}
 	runtime-version (7) {
 		overrides {
