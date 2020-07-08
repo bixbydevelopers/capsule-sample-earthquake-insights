@@ -9,7 +9,7 @@ capsule-info {
 	dispatch-name (earthquake insights)
 	privacy-policy-url (http://my-capsule.com/privacy-policy)
 	requested-permissions {
-		permission (user-profile-access) {
+		permission (device-location-access) {
 			justification (To provide your current location for earthquake search.)
 		}
 	}
