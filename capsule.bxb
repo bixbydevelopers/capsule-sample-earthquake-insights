@@ -16,7 +16,7 @@ capsule {
 	permissions {
 		device-location-access
 	}
-	runtime-version (7) {
+	runtime-version (8) {
 		overrides {
 			no-fallback-dialog-in-views (false)
 		}
