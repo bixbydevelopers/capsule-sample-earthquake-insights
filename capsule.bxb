@@ -7,10 +7,10 @@ capsule {
 	}
 	capsule-imports {
 		import (viv.time) {
-			as (time) version (3.3.7)
+			as (time) version (3.3.34)
 		}
 		import (viv.geo) {
-			as (geo) version (9.27.7)
+			as (geo) version (9.27.15)
 		}
 	}
 	permissions {
