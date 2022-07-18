@@ -5,7 +5,7 @@ result-view {
     if (size(earthquake) > 1) {
       list-of (earthquake) {
         where-each (item) {
-          layout-macro (earthquake-thumbnail-card) {
+          macro (earthquake-thumbnail-card) {
             param (earthquake) {
               expression (item)
             }
