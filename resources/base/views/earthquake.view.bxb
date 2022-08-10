@@ -14,8 +14,12 @@ result-view {
       }
     }
     else-if (size(earthquake) == 1) {
-      layout-match (earthquake) {
-        mode (Details)
+      layout {
+        macro (earthquake-details) {
+          param (earthquake) {
+            expression (earthquake)
+          }
+        } 
       }
     }
   }

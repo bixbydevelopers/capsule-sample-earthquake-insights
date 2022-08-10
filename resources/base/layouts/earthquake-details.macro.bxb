@@ -1,7 +1,10 @@
-layout {
-  match: Earthquake (earthquake)
-  mode (Details)
-
+macro-def (earthquake-details) {
+  params {
+    param (earthquake) {
+      type (Earthquake)
+      min (Required) max (One)
+    }
+  }
   content {
     section {
       content {
