@@ -1,4 +1,4 @@
-layout-macro-def (earthquake-thumbnail-card) {
+macro-def (earthquake-thumbnail-card) {
   params {
     param (earthquake) {
       type (Earthquake)
